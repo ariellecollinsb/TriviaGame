@@ -4,7 +4,7 @@ var questions =
         {
             iAsk: "The chemical symbol of Mercury, Hg, is derived from its Greek name...?",
             choices: ["Hagiarchy", "Hydrargyrum", "Hygric", "Hygieia"],
-            correctAnswer: 3
+            correctAnswer: 1
         },
         {
             iAsk: "Where was Freddie Mercury born?",
@@ -19,7 +19,7 @@ var questions =
         {
             iAsk: "In the 2005 science fiction novel, Mercury, by author Ben Bova, what did the title character study?",
             choices: ["Theatre", "Education", "Physics", "Engineering"],
-            correctAnswer: 0
+            correctAnswer: 3
         },
         {
             iAsk: "What is the atomic number of Mercury?",
@@ -29,12 +29,12 @@ var questions =
         {
             iAsk: "In the Indian thriller, Mercury, created by director Karthik Subbaraj the main characters were terrorized by what?",
             choices: ["A Ghost", "A Zombie", "A Serial Killer", "A Curse"],
-            correctAnswer: 1
+            correctAnswer: 0
         },
         {
             iAsk: "In the 1960 DC Comics 'Metal Men', Dr William Mangus gave artificially intelligent robot Mercury, the ability to do what?",
-            choices: ["Melt and reform", "Super strength", "Block radiation", "Spin into a fine filament"],
-            correctAnswer: 3
+            choices: ["Super strength", "Melt and reform", "Super strength", "Block radiation", "Spin into a fine filament"],
+            correctAnswer: 1
         },
         {
             iAsk: "Mercury, a character of the New X-Men Universe, and a student of the Xavier Institute, grew up in which US state?",
@@ -43,13 +43,13 @@ var questions =
         },
         {
             iAsk: "Fictional character Mercury was a member of which race of Super-humanoids from the Marvel Universe series of American comic books first published in 1976?",
-            choices: ["The Eternals", "The Infinity", "The Hunters", "The Quasars"],
-            correctAnswer: 0
+            choices: ["The Hunters", "The Eternals", "The Infinity", "The Quasars"],
+            correctAnswer: 1
         },
         {
             iAsk: "Roman god Mercury, was known in Greek mythology as who?",
-            choices: ["Hephaistos", "Hermes", "Demeter", "Dionysus"],
-            correctAnswer: 1
+            choices: ["Hephaistos", "Demeter", "Dionysus", "Hermes"],
+            correctAnswer: 3
         },
     ];
 
@@ -111,7 +111,7 @@ function setResponse(message) {
             startRound();
         } else {
             //Game Over
-            $("#response").html(`Your score was: ${userScore}`);
+            $("#response").html(`Your score was: ${userScore}/10`);
         }
     });
 }
