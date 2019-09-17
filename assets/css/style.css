@@ -1,0 +1,40 @@
+
+body {
+    background-image: url(../images/crossline-dots.png);
+    background-repeat: repeat;
+    border: 10px solid #545151;
+    border-radius: 30px;
+}
+
+.container {
+
+    background-color: darkgrey;
+    border: 10px solid #545151;
+    border-radius: 30px;
+    width: 900px;
+    height: 700px;
+}
+
+.header {
+    padding: 50px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;  
+
+}
+
+#start {
+     border-radius: 10px;
+     background-color: #545151;
+}
+
+div {
+
+    text-align: center;
+}
+
+
+footer {
+
+    text-align: center;
+
+}
